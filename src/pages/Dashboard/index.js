@@ -33,7 +33,7 @@ const DashboardPage = () => {
                   className="font-normal not-italic text-gray_500 text-left tracking-ls014 md:tracking-ls1 sm:tracking-ls1 w-[auto]"
                   variant="body1"
                 >
-                @NASAF
+                @NASA
                 </Text>
               </div>
             </div>
@@ -107,7 +107,7 @@ const DashboardPage = () => {
                   className="font-medium md:ml-[0] sm:ml-[0] ml-[16px] text-gray_901 text-left tracking-ls012 md:tracking-ls1 sm:tracking-ls1 w-[auto]"
                   variant="body2"
                 >
-                  MARKETPLACE
+                  Market
                 </Text>
                 <div className="flex flex-col gap-[8px] items-center justify-start w-[100%]">
                   <div
@@ -1184,11 +1184,15 @@ const DashboardPage = () => {
                     </div>
                   </div>
                 </List>
+                
               </div>
             </div>
           </div>
         </div>
       </div>
+      
+      
+      
     </>
   );
 };

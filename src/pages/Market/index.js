@@ -16,7 +16,7 @@ const MarketPage = () => {
           <div className="flex flex-col gap-[50px] items-start justify-start mx-[auto] my-[34px] w-[89%]">
             <div className="flex flex-row gap-[14px] items-start justify-start md:ml-[0] sm:ml-[0] ml-[16px] md:w-[100%] sm:w-[100%] w-[67%]">
               <Img
-                src="images/img_ellipse1015.png"
+                src="images/logo.png"
                 className="h-[56px] md:h-[auto] sm:h-[auto] rounded-radius50 w-[56px]"
                 alt="Ellipse1015"
               />
@@ -26,13 +26,13 @@ const MarketPage = () => {
                   as="h5"
                   variant="h5"
                 >
-                  Kevin Cranel
+                  Vibe.3
                 </Text>
                 <Text
                   className="font-normal not-italic text-gray_500 text-left tracking-ls014 md:tracking-ls1 sm:tracking-ls1 w-[auto]"
                   variant="body1"
                 >
-                  @kecrane
+                  @NASA
                 </Text>
               </div>
             </div>
@@ -79,7 +79,7 @@ const MarketPage = () => {
                         as="h5"
                         variant="h5"
                       >
-                        Message
+                        Community
                       </Text>
                     </div>
                   </div>
@@ -109,7 +109,7 @@ const MarketPage = () => {
                   className="font-medium md:ml-[0] sm:ml-[0] ml-[16px] text-gray_901 text-left tracking-ls012 md:tracking-ls1 sm:tracking-ls1 w-[auto]"
                   variant="body2"
                 >
-                  MARKETPLACE
+                  Market
                 </Text>
                 <div className="flex flex-col font-outfit gap-[8px] items-center justify-start w-[100%]">
                   <div className="bg-gray_900_5f flex flex-col items-start justify-start p-[10px] rounded-radius10 w-[100%]">
@@ -134,7 +134,7 @@ const MarketPage = () => {
                   >
                     <div className="flex flex-row gap-[18px] items-center justify-start md:ml-[0] sm:ml-[0] ml-[6px] md:w-[100%] sm:w-[100%] w-[50%]">
                       <Img
-                        src="images/img_judge.svg"
+                        src="images/upload.svg"
                         className="h-[24px] w-[24px]"
                         alt="judge"
                       />
@@ -143,7 +143,7 @@ const MarketPage = () => {
                         as="h5"
                         variant="h5"
                       >
-                        Active Bid
+                        Upload
                       </Text>
                     </div>
                   </div>
@@ -162,7 +162,7 @@ const MarketPage = () => {
                         as="h5"
                         variant="h5"
                       >
-                        Saved
+                        Liked Songs
                       </Text>
                     </div>
                   </div>
@@ -219,17 +219,17 @@ const MarketPage = () => {
                     onClick={() => navigate("/myprofilehistory")}
                   >
                     <div className="flex flex-row gap-[18px] items-center justify-start md:ml-[0] sm:ml-[0] ml-[6px] md:w-[100%] sm:w-[100%] w-[40%]">
-                      <Img
-                        src="images/img_clock_24X24.svg"
-                        className="h-[24px] w-[24px]"
-                        alt="clock Two"
-                      />
+                      {/* <Img */}
+                        {/* // src="images/img_clock_24X24.svg" */}
+                        {/* className="h-[24px] w-[24px]" */}
+                        {/* // alt="clock Two" */}
+                      {/* /> */}
                       <Text
                         className="font-medium text-gray_500 text-left tracking-ls018 md:tracking-ls1 sm:tracking-ls1 w-[auto]"
                         as="h5"
                         variant="h5"
                       >
-                        History
+                        {/* History */}
                       </Text>
                     </div>
                   </div>
