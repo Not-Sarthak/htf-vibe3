@@ -16,7 +16,7 @@ const ActiveBidPage = () => {
           <div className="bg-gray_50 border-bw15 border-gray_100 border-solid flex flex-col items-start justify-start p-[18px] w-[100%]">
             <div className="flex flex-row gap-[14px] items-start justify-start md:ml-[0] sm:ml-[0] ml-[16px] mt-[16px] md:w-[100%] sm:w-[100%] w-[67%]">
               <Img
-                src="images/img_ellipse1015.png"
+                src="images/logo.png"
                 className="h-[56px] md:h-[auto] sm:h-[auto] rounded-radius50 w-[56px]"
                 alt="Ellipse1015"
               />
@@ -26,13 +26,13 @@ const ActiveBidPage = () => {
                   as="h5"
                   variant="h5"
                 >
-                  Kevin Cranel
+                  Vibe.3
                 </Text>
                 <Text
                   className="font-normal not-italic text-gray_500 text-left tracking-ls014 md:tracking-ls1 sm:tracking-ls1 w-[auto]"
                   variant="body1"
                 >
-                  @kecrane
+                  @NASA
                 </Text>
               </div>
             </div>
@@ -42,7 +42,7 @@ const ActiveBidPage = () => {
                   className="font-medium md:ml-[0] sm:ml-[0] ml-[16px] text-gray_901 text-left tracking-ls012 md:tracking-ls1 sm:tracking-ls1 w-[auto]"
                   variant="body2"
                 >
-                  GENERAL
+                  General
                 </Text>
                 <div className="flex flex-col gap-[8px] items-center justify-start w-[100%]">
                   <div
@@ -79,7 +79,7 @@ const ActiveBidPage = () => {
                         as="h5"
                         variant="h5"
                       >
-                        Message
+                        Community
                       </Text>
                     </div>
                   </div>
@@ -109,7 +109,7 @@ const ActiveBidPage = () => {
                   className="font-medium md:ml-[0] sm:ml-[0] ml-[16px] text-gray_901 text-left tracking-ls012 md:tracking-ls1 sm:tracking-ls1 w-[auto]"
                   variant="body2"
                 >
-                  MARKETPLACE
+                  Market
                 </Text>
                 <div className="flex flex-col gap-[8px] items-center justify-start w-[100%]">
                   <div
@@ -134,7 +134,7 @@ const ActiveBidPage = () => {
                   <div className="bg-gray_900_5f flex flex-col font-outfit items-start justify-start p-[10px] rounded-radius10 w-[100%]">
                     <div className="flex flex-row gap-[18px] items-center justify-start md:ml-[0] sm:ml-[0] ml-[6px] md:w-[100%] sm:w-[100%] w-[51%]">
                       <Img
-                        src="images/img_camera_24X24.svg"
+                        src="images/upload.svg"
                         className="h-[24px] w-[24px]"
                         alt="camera"
                       />
@@ -143,7 +143,7 @@ const ActiveBidPage = () => {
                         as="h5"
                         variant="h5"
                       >
-                        Active Bid
+                        Upload
                       </Text>
                     </div>
                   </div>
@@ -162,7 +162,7 @@ const ActiveBidPage = () => {
                         as="h5"
                         variant="h5"
                       >
-                        Saved
+                        Liked Songs
                       </Text>
                     </div>
                   </div>
@@ -219,7 +219,7 @@ const ActiveBidPage = () => {
                     onClick={() => navigate("/myprofilehistory")}
                   >
                     <div className="flex flex-row gap-[18px] items-end justify-start md:ml-[0] sm:ml-[0] ml-[6px] md:w-[100%] sm:w-[100%] w-[40%]">
-                      <Img
+                      {/* <Img
                         src="images/img_clock_24X24.svg"
                         className="h-[24px] w-[24px]"
                         alt="clock Two"
@@ -230,7 +230,7 @@ const ActiveBidPage = () => {
                         variant="h5"
                       >
                         History
-                      </Text>
+                      </Text> */}
                     </div>
                   </div>
                 </div>

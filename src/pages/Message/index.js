@@ -279,27 +279,60 @@ const MessagePage = () => {
             </div>
           </div>
         </aside>
+        
 
-        {/* <div className="com1">
-          <h1>Join the rhythm of a united beat and find the people having same vibes</h1>
+                    
+            div
+          <div className="head">
+            <h1>Join our Community</h1>
+          </div>
+        <div className="msg1">
+                    <p className="p1">Join the rhythm of a united beat</p>
+                    <p className="p1">and find the people having same vibes</p>
+        </div>
+
+
+        <div>
+          {/* <button className="button">Join The Hub</button> */}
+        </div>
+
+        <div>
+          <button className="button">Find your vibe</button>
+        </div>
+
+        <div className="image-back">
+          <Img
+           src="Images/back-img.png"
+            alt="background-img"
+            className="background-img" />
+        </div>
+
+        {/* <div className="last">
+                <p>Empower your music collection with the security and transparency of blockchan!</p>
+               <p>Join the future of music streaming and support your favorite artists directly !</p>
+
+              <p>Be part of the community where music and blockchain meet!</p>
         </div> */}
+      
 
 
       </div>
-      <div className="bg-gradient  flex flex-col gap-[34px] items-start justify-center p-[30px] sm:px-[20px] rounded-radius15 w-[100%]">
+      <div hig className="bg-gradient  flex flex-col gap-[34px] items-start justify-center p-[30px] sm:px-[20px] rounded-radius15 w-[100%]">
                     <div className="flex flex-col gap-[14px] items-start justify-start mt-[19px] md:w-[100%] sm:w-[100%] w-[77%]">
                       <Text
                         className="text-left text-white_A700 tracking-ls032 md:tracking-ls1 sm:tracking-ls1 w-[auto]"
                         as="h2"
                         variant="h2"
                       >
-                        Discover new sounds in a Decentralized World
+                        <p className="foot1">We vibe with everyone - feel free to connect !</p>
+                        <p className="connect">@nandanpathakk</p>
+                        <p className="connect">@Shah__Sarthak</p>
+                        <p className="connect">@saumyajeet_6103</p>
                       </Text>
                       <Text
                         className="font-medium text-left text-white_A700_a2 tracking-ls014 md:tracking-ls1 sm:tracking-ls1 w-[auto]"
                         variant="body1"
                       >
-                        Bringing Music and Ownership together with Web3 NFT's and Automated Licenses 
                       </Text>
       </div>
       </div>
